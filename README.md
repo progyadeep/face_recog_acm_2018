@@ -30,8 +30,8 @@ Here's a brief overview of the working.
   where xyz is the name of the dependancy as listed above. <b>Make sure to have the latest version of pip and setuptools.</b>
   
   # HOW TO RUN IT
-  With the dependencies resolved, do:  
-1. Place all the known images inside the <b>known_faces</b> folder as follows: All images for Steve Jobs should be placed under <b>known_faces/Steve Jobs/</b>. One subfolder for each person. The images will automatically be labelled by the subfolder name.
-2. Run  
+  With the dependencies resolved, place all the known images inside the <b>known_faces</b> folder as follows: All images for Steve Jobs should be placed under <b>known_faces/Steve Jobs/</b>. One subfolder for each person. The images will automatically be labelled by the subfolder name.  
+  
+Then, run  
   <br/>
   > python trainer.py
