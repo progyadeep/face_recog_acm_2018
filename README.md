@@ -33,5 +33,11 @@ Here's a brief overview of the working.
   With the dependencies resolved, place all the known images inside the <b>known_faces</b> folder as follows: All images for Steve Jobs should be placed under <b>known_faces/Steve Jobs/</b>. One subfolder for each person. The images will automatically be labelled by the subfolder name.  
   
 Then, run  
-  <br/>
+
   > python trainer.py
+  <br/>
+  Then run  
+  
+  > python recognize.py
+  <br/>
+  The code will ask you for the path of the test image, which is the image that you want to recognize the face in. Enter the path of the image with respect to the current directory.
