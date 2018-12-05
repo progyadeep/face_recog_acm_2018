@@ -30,7 +30,14 @@ Here's a brief overview of the working.
   
   > pip install xyz
   
-  where xyz is the name of the dependancy as listed above. <b>Make sure to have the latest version of pip and setuptools.</b>  
+  where xyz is the name of the dependancy as listed above. On linux (at least), you need to install <b>cmake</b> before installing <b>dlib</b>. On Arch (and Manjaro and any other Arch based distribution), this can be done using:  
+  <br/>  
+  
+  > sudo pacman -Sy dlib
+  
+  For other operating systems, Google.  
+  
+  <b>Make sure to have the latest version of pip and setuptools.</b>  
   <br/>
   
   # HOW TO RUN IT
