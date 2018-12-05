@@ -23,9 +23,17 @@ Here's a brief overview of the working.
       <li> face_recognition</li>
     </ul></li>
   </ul>
-  The above python library dependences can be installed directly using the command  
-  
-  
+  The above python library dependences can be installed directly using the command:  
+  <br/>  
   > pip install xyz
   
-  where xyz is the name of the dependancy as listed above.
+  where xyz is the name of the dependancy as listed above. <b>Make sure to have the latest version of pip and setuptools.</b>
+  
+  # HOW TO RUN IT
+  With the dependencies resolved, do:  
+  <ol>
+  <li> Place all the known images inside the <b>known_faces</b> folder as follows: All images for Steve Jobs should be placed under <b>known_faces/Steve Jobs/</b>. One subfolder for each person. The images will automatically be labelled by the subfolder name.</li>
+  <li> Run  
+  <br/>
+  > python trainer.py<li>
+  </ol>
