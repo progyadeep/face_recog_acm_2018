@@ -37,7 +37,7 @@ Then, run
   > python trainer.py
   <br/>
   Then run  
-  
+  <br/>
   > python recognize.py
   <br/>
   The code will ask you for the path of the test image, which is the image that you want to recognize the face in. Enter the path of the image with respect to the current directory.
