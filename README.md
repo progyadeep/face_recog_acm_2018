@@ -47,7 +47,7 @@ Then, run
   The code will ask you for the path of the test image, which is the image that you want to recognize the face in. Enter the path of the image with respect to the current directory.  
   <br/>
   The <b>output</b> will be the name of the person (same as the subfolder inside <b>known_faces/</b>) whose face is found in the photo.  
-  <br/>
+  <br/><br/>
   
   # LIMITATION
   The code has only been tested to identify a single face in a picture containing a single face.
