@@ -31,9 +31,7 @@ Here's a brief overview of the working.
   
   # HOW TO RUN IT
   With the dependencies resolved, do:  
-  <ol>
-  <li> Place all the known images inside the <b>known_faces</b> folder as follows: All images for Steve Jobs should be placed under <b>known_faces/Steve Jobs/</b>. One subfolder for each person. The images will automatically be labelled by the subfolder name.</li>
-  <li> Run  
+1. Place all the known images inside the <b>known_faces</b> folder as follows: All images for Steve Jobs should be placed under <b>known_faces/Steve Jobs/</b>. One subfolder for each person. The images will automatically be labelled by the subfolder name.
+2. Run  
   <br/>
-  > python trainer.py<li>
-  </ol>
+  > python trainer.py
