@@ -26,7 +26,7 @@ Here's a brief overview of the working.
     </ul></li>
   </ul>
   The above python library dependences can be installed directly using the command:  
-  <br/>  
+  <br/><br/>  
   
   > pip install xyz
   
