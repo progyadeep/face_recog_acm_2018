@@ -27,6 +27,7 @@ Here's a brief overview of the working.
   </ul>
   The above python library dependences can be installed directly using the command:  
   <br/>  
+  
   > pip install xyz
   
   where xyz is the name of the dependancy as listed above. <b>Make sure to have the latest version of pip and setuptools.</b>  
