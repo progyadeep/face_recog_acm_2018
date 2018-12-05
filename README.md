@@ -24,7 +24,7 @@ Here's a brief overview of the working.
     </ul></li>
   </ul>
   The above python library dependences can be installed directly using the command:  
-  <br/><br/>  
+  <br/>  
   > pip install xyz
   
   where xyz is the name of the dependancy as listed above. <b>Make sure to have the latest version of pip and setuptools.</b>
@@ -37,8 +37,13 @@ Then, run
   > python trainer.py
   <br/>
   Then run  
-  <br/>
+  <br/><br/>
   
   > python recognize.py
   <br/>
-  The code will ask you for the path of the test image, which is the image that you want to recognize the face in. Enter the path of the image with respect to the current directory.
+  The code will ask you for the path of the test image, which is the image that you want to recognize the face in. Enter the path of the image with respect to the current directory.  
+  <br/>
+  The <b>output</b> will be the name of the person (same as the subfolder inside <b>known_faces/</b>) whose face is found in the photo.
+  
+  # LIMITATION
+  The code has only been tested to identify a single face in a picture containing a single face.
